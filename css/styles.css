@@ -1,0 +1,183 @@
+body{
+  font-family: 'Montserrat';
+}
+
+.container-fluid{
+  margin: 0;
+  padding: 7% 15%;
+}
+
+/*----------- heading and text -----------*/
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.biggest-heading{
+  font-size: 4rem;
+}
+
+.big-heading{
+  font-size: 3rem;
+}
+
+.middle-heading{
+  font-size: 2rem;
+
+}
+
+p{
+  font-family: 'Ubuntu';
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+span{
+  padding: 0 0.5rem 0 0;
+  font-size: 1rem;
+}
+/*----------- navigation -----------*/
+.navigation{
+  padding: 2% 15%;
+}
+.navigation-brand{
+  font-family: 'Ubuntu';
+}
+
+.nav-item{
+  font-family: 'Ubuntu';
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 0 7.5%;
+}
+
+/*----------- title section -----------*/
+
+.title{
+  background-color: #ff4c68;
+  overflow: hidden;
+}
+
+.title-heading{
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 15%;
+}
+
+.title-image{
+  transform: rotate(15deg);
+  padding-left: 20%;
+  top: -15%;
+  position: absolute;
+}
+
+.title-button{
+margin-right: 10%;
+margin-bottom: 10%
+}
+
+@media (max-width:1200px) {
+
+  .title-image{
+    visibility: hidden;
+  }
+
+}
+
+/*----------- features section -----------*/
+.features{
+  position: relative;
+  z-index: 100;
+  background-color: #ffff;
+}
+
+.feature{
+  text-align: center;
+}
+
+.feature-paragraph{
+  color: #8f8f8f;
+}
+
+.feature-icon{
+ font-size: 5rem;
+ color: #ef8172;
+ line-height: 2;
+}
+
+.feature-icon:hover{
+ color: #ff4c68;
+}
+
+/*----------- testimonials section -----------*/
+
+.testimonial-section{
+  background-color:  #ef8172;
+}
+
+.testimonials{
+  color: white;
+  text-align: center;
+  padding: 10vh 25% 10vh 25%;
+}
+
+.testimonials-image{
+  border-radius: 100%;
+  width: 15vh;
+  margin: 3%;
+}
+
+.press{
+  background-color:  #ef8172;
+  text-align: center;
+}
+
+.press-image{
+  width: 20%;
+  padding-right: 5%;
+}
+
+/*----------- pricing section -----------*/
+.pricing{
+  text-align: center;
+}
+
+.pricing-slogan-text{
+  color: #8f8f8f;
+  padding-bottom: 10vh;
+}
+
+.pricing-card-text{
+  color: #8f8f8f;
+}
+
+/*----------- call to action section -----------*/
+
+.action-section{
+  background-color:  #ff4c68;
+  text-align: center;
+}
+
+.action-header{
+  color: white;
+  padding-bottom: 5%;
+}
+
+.action-button{
+  margin-left: 5%
+}
+
+/*----------- footer section -----------*/
+
+.footer{
+  text-align: center;
+}
+
+.footer-icon{
+  margin-right: 1%;
+  margin-bottom: 3vh;
+}
